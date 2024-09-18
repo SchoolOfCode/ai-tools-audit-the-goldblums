@@ -1,41 +1,60 @@
-# 🤖 Welcome to the AI Tools Audit Workshop! 🤖
-![aitools1](https://github.com/user-attachments/assets/59a8869a-6ad0-4774-9cf4-101e0dd59edf)
+The Report 
 
-**Techforge** needs your expertise to identify AI tools that can benefit the company. This is where you'll compile and share your full audit report, collaborating as a team to deliver insights that will shape Techforge's future!
+Bottleneck issue identified: Security Vulnerabilities in Code
 
-## 📋 Here's What to Do:
+As TechForge is responsible for holding sensitive customer data with there applications, if a security vulnerability were to be present within their codebase, this could lead to a breach or a data leak. Currently the team are identifying these vulnerablities manually, this is a challenge to upkeep within the fast paced environment and with the current static analysis tool set, some issues might be going unnoticed. 
 
-1. **Create a new markdown file** for each AI tool that you evaluate. We suggest possibly using any of the areas of evaluation mentioned in the task brief.
-      - Opportunity
-      - Risk
-      - Tangible Benefit
-      - Evaluation
-2. After you've completed all of the audits, you will **Compile The Report** in this file. Delete everything here, and then write your:
-      - Executive Summary
-      - Introduction
-      - Conclusion and Recommendations
-3. Discuss and **choose AI tools** as a team, and evaluate them across whichever key areas you feel is best suited.
-4. **Collaborate** as a team to ensure your findings are thorough and cover all necessary aspects.
-5. Once you're satisfied with your findings, **'Commit changes'** to the main branch of the repository.
-6. Your team members can then **present your findings** individually or as a team based on the markdown reports.
+Enter DeepCode (Part of Snyk)
 
----
+What does it do:
 
-### 🌟 What’s Next?
+Automatically fixes code quality issues and security vulnerabilities by analysing your code and applying the most suitable solutions.
 
-As you explore the different AI tools, remember this is a **collaborative effort**—each contribution builds the final audit report. Your task is not only to analyze the tools but to discuss and collaborate as a team, bringing the best insights forward.
+DeepCode offers continuous AI-driven code reviews, detects vulnerabilities, logic flaws and potential issues with thirs-party libraries. 
 
-### 🛠 Tools and Resources:
-- **Markdown**: Use markdown to structure your reports clearly.
-- **Git**: Commit your changes frequently to keep track of your progress.
-- **Team Collaboration**: Work closely with your team to create a unified, strong report.
+It integrates directly with GithHub and automatically reviews pull request and scans repo's in real-time as code is written or updated for security flaws. Repositories can also be scanned manually or during scheduled scans depending on the setup within your CI/CD pipeline, ensuring regular monitoring of code for any emerging issues.
 
----
+It is integrated with the developers IDE and analyses changes and flags issues as they occur, to ensure vulnerabilities are detected early in the devlopment process. 
 
-### 🎯 Have fun exploring and we look forward to seeing your team's AI audits!
+How does it work:
 
----
+Scans code to detect issues (e.g., bugs, security flaws).
+Suggests multiple fixes based on machine learning models.
+Ranks these fixes and applies the best one automatically.
 
-🚨 **Important**: All findings must be submitted in the main branch. Make sure your team members are on the same page and coordinating well!
+Impact:
+By proactively identifying and resolving vulnerabilities in the development phase this improves the overall security of TechForge’s applications. This reduces the risk of security incidents, saves time spent on manual reviews, and ensures compliance with security standards.
 
-👩‍💻 **Happy Auditing!**
+A. Opportunity
+DeepCode AI Fix automatically identifies and fixes security flaws and quality issues in code. It improves processes by reducing the manual effort required to review and repair code, making it faster to address vulnerabilities and implement best practices.
+Automates the detection of code quality issues, security vulnerabilities, and potential bugs.
+
+B. Risk
+There is a risk of the AI generating incorrect or syntactically flawed code. Developers must review AI-generated fixes to prevent breaking applications.
+Some fixes may need manual review to avoid breaking code or introducing errors. 
+Developers might become over-reliant on the tool, assuming their code is fully optimised without deeper manual checks.
+
+C. Tangible Benefit
+It saves time by automating bug fixes, enhances productivity, and reduces tech debt through quicker, secure fixes.
+Tech debt happens when quick fixes or shortcuts are made during development to meet deadlines but can cause problems later, requiring additional time and resources to fix.
+
+How DeepCode AI helps with tech debt:
+
+It identifies these inefficient or risky pieces of code automatically and suggests secure, efficient improvements in real-time.
+
+This reduces the long-term cost of refactoring and maintenance, preventing tech debt from piling up.
+
+Cost Savings: Catching bugs early in development can prevent costly issues down the line.
+
+Time Efficiency: Automates code review processes, reducing the burden on senior developers and freeing up their time.
+
+Productivity Gains: Improves code quality and security proactively rather than reactively.
+
+Data: Uses public open-source code for training, not customer data
+
+Price
+Free - For individual developers and small teams looking to stay secure as they build.Free forever $0
+Team - For development teams looking to build security into their development process.Starting at $25 per month/product
+
+D. Evaluation
+The benefits outweigh the risks, making it a highly recommended tool for improving code quality and security particularly given TechForge's use of GitHub and the need for continuous code quality assurance.
