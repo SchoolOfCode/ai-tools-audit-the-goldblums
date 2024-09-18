@@ -1,25 +1,27 @@
 Testim
+-Testim is the leading AI-powered test automation platform for custom web applications. Testim enables fast authoring of AI-stabilized UI and end-to-end tests.
 
-Example Questions to Answer:
- • What problems does this tool solve? - Testim is a very useful tool when creating and managing tests in the project.
- • How can it improve current processes? - This can save a large amount of time during the devolpment process by allowing
-  the automation of test creation and usage 
+Problem Solved: Reduces time spent on manual test creation, maintenance, and updates for front-end and back-end workflows.
 
-B. Risk
+Process Improvement: Integrates with Jest and Postman to enhance the automation of unit and API tests. It adapts tests based on changes in the application, making the testing process faster and more reliable.
 
-Example Questions to Answer:
- • What are the potential downsides?
- • Are there security or compliance concerns?
+Downsides: 
+High upfront configuration and learning curve. The tool could generate false positives/negatives or miss critical edge cases.
 
-C. Tangible Benefit
+Security Concerns: Automated test scripts could be misconfigured, which could lead to incomplete testing and unintentional bugs slipping through.
 
-Example Metrics to Consider:
- • Cost savings.
- • Time efficiency.
- • Productivity gains.
 
-D. Evaluation
+C. Tangible Benefit:
 
-Example Final Thoughts:
- • Does the benefit outweigh the risk?
- • Would you recommend adoption?
+Cost Savings: Reduces manual effort required for writing and maintaining tests, lowering labor costs.
+
+Time Efficiency: Can execute large test suites faster, improving the CI/CD pipeline speed.
+
+Productivity Gains: Frees up QA and development teams to focus on more critical or complex testing scenarios.
+
+Conclusion- 
+
+Testim is a extremnly useful tool in devolpmment, allowing for seamless creation of edge cases, unit and other tests which can be automated to save time in the dev process.
+Will allow for more freedom to focus on other areas of the code whilst also having the increased security of tests within the code.
+
+However as with all Ai tools it would most likly require a developer to check the tests to make sure they are working correctly which can remove some of the speed.
