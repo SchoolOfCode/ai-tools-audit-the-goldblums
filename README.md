@@ -58,3 +58,31 @@ Team - For development teams looking to build security into their development pr
 
 D. Evaluation
 The benefits outweigh the risks, making it a highly recommended tool for improving code quality and security particularly given TechForge's use of GitHub and the need for continuous code quality assurance.
+
+Testim a product by Tricentis: https://www.testim.io/
+
+Testim is the leading AI-powered test automation platform for custom web applications. Testim enables fast authoring of AI-stabilized UI and end-to-end tests.
+
+Problem Solved: 
+Reduces time spent on manual test creation, maintenance, and updates for front-end and back-end workflows.
+
+Process Improvement: 
+Integrates with Jest and Postman to enhance the automation of unit and API tests. It adapts tests based on changes in the application, making the testing process faster and more reliable.
+
+Downsides: 
+High upfront configuration and learning curve. The tool could generate false positives/negatives or miss critical edge cases.
+
+Security Concerns: Automated test scripts could be misconfigured, which could lead to incomplete testing and unintentional bugs slipping through.
+
+
+Benefits:
+Cost Savings: Reduces manual effort required for writing and maintaining tests, lowering labor costs.
+Time Efficiency: Can execute large test suites faster, improving the CI/CD pipeline speed.
+Productivity Gains: Frees up QA and development teams to focus on more critical or complex testing scenarios.
+
+Conclusion- 
+
+Testim is a extremnly useful tool in devolpmment, allowing for seamless creation of edge cases, unit and other tests which can be automated to save time in the dev process.
+Will allow for more freedom to focus on other areas of the code whilst also having the increased security of tests within the code.
+
+However as with all Ai tools it would most likly require a developer to check the tests to make sure they are working correctly which can remove some of the speed.
