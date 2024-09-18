@@ -2,7 +2,8 @@
 A. Opportunity:
 
 Problem Solved: Automates code suggestions and refactoring during development, enhancing code quality and consistency.
-Process Improvement: GitHub Copilot integrates directly into VSCode and can assist developers by suggesting entire code snippets, reducing the time spent on boilerplate code or looking up language syntax.
+Process Improvement: GitHub Copilot integrates directly into VSCode and can assist developers by suggesting entire code snippets, 
+reducing the time spent on boilerplate code or looking up language syntax.
 B. Risk:
 
 Downsides: Developers may become too reliant on the tool, which could reduce deep understanding of code. Additionally, Copilot might suggest insecure or suboptimal code if not carefully reviewed.
