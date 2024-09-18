@@ -1,3 +1,15 @@
+BOTTLENECKS IDENTIFIED
+
+- Helps adjusts test cases as program is developed 
+- Solution is Testim 
+
+- slow down development cycles, leading to missed deadlines or delayed product releases
+- CircleCI helps automate CI/CD automations, gives predictions 
+
+- Security vulnerabilities 
+- DeepCode offers AI-driven code reviews, detecting security vulnerabilities, logic flaws, and potential issues with third-party libraries
+
+
 1. AI-Powered Code Review: GitHub Copilot
 A. Opportunity:
 
