@@ -91,6 +91,13 @@ projects and libraries. There have been issues with the timeframes in handling t
 occuring in the structure of the folder system causing widespread and difficult to solve issues. Code is not being adequately tested
 which is increasing the risk of faulty code.
 
+Part 3: AI Tool
+
+We were reached out o by a company called TechForge that is a company with a strong focus on JS and react/next.js for
+projects and libraries. There have been issues with the timeframes in handling the building of the frameworks, errors are
+occuring in the structure of the folder system causing widespread and difficult to solve issues. Code is not being adequately tested
+which is increasing the risk of faulty code.
+
 We, the 'Codeblums by the Goldblums' aka auditors present the ultimate solution: 
 
 ////////v0-dev a Vercel AI tool for all your JS needs.//////
@@ -161,6 +168,4 @@ and what is best to apply to your JS code. As such you can simply
 - code snippets correction or quick error fixes means that time is saved.
 - the JS focus of the model means that the answers are much more likely to be focused on JS issues.
  • Would you recommend adoption?
-- I recommend the use of v0 as it would benefit consistent, productive work.
-
 - I recommend the use of v0 as it would benefit consistent, productive work.
