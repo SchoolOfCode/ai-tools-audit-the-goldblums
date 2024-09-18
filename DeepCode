@@ -1,66 +1,59 @@
+Bottleneck issue identified: Security Vulnerabilities in Code
 
+As TechForge is responsible for holding sensitive customer data with there applications, if a security vulnerability were to be present within their codebase, this could lead to a breach or a data leak. Currently the team are identifying these vulnerablities manually, this is a challenge to upkeep within the fast paced environment and with the current static analysis tool set, some issues might be going unnoticed. 
 
+Enter DeepCode (Part of Snyk)
 
-Bottleneck: Security Vulnerabilities in Code
-Context:
-TechForge handles sensitive customer data across their applications, and any security vulnerability in their codebase (JavaScript, Node.js, or SQL) could lead to breaches or data leaks. Manually identifying these vulnerabilities, especially in a fast-paced environment, is a challenge, and even with static analysis tools, some security issues might go unnoticed.
+What does it do:
 
-AI Tool: DeepCode (Snyk)
+Automatically fixes code quality issues and security vulnerabilities by analysing your code and applying the most suitable solutions.
 
-How It Helps:
-DeepCode offers continuous AI-driven code reviews, detecting security vulnerabilities, logic flaws, and potential issues with third-party libraries. This tool integrates directly with GitHub, automatically reviewing pull requests and scanning repositories for security flaws.
+DeepCode offers continuous AI-driven code reviews, detects vulnerabilities, logic flaws and potential issues with thirs-party libraries. 
+
+It integrates directly with GithHub and automatically reviews pull request and scans repo's in real-time as code is written or updated for security flaws. Repositories can also be scanned manually or during scheduled scans depending on the setup within your CI/CD pipeline, ensuring regular monitoring of code for any emerging issues.
+
+It is integrated with the developers IDE and analyses changes and flags issues as they occur, to ensure vulnerabilities are detected early in the devlopment process. 
+
+How does it work:
+
+Scans code to detect issues (e.g., bugs, security flaws).
+Suggests multiple fixes based on machine learning models.
+Ranks these fixes and applies the best one automatically.
+
 Impact:
-Proactively identifying and resolving vulnerabilities in the development phase improves the overall security posture of TechForge’s applications. This reduces the risk of security incidents, saves time spent on manual reviews, and ensures compliance with security standards.
+By proactively identifying and resolving vulnerabilities in the development phase this improves the overall security of TechForge’s applications. This reduces the risk of security incidents, saves time spent on manual reviews, and ensures compliance with security standards.
 
+A. Opportunity
+DeepCode AI Fix automatically identifies and fixes security flaws and quality issues in code. It improves processes by reducing the manual effort required to review and repair code, making it faster to address vulnerabilities and implement best practices.
+Automates the detection of code quality issues, security vulnerabilities, and potential bugs.
 
-AI-Powered Code Review: GitHub Copilot
-A. Opportunity:
+B. Risk
+There is a risk of the AI generating incorrect or syntactically flawed code. Developers must review AI-generated fixes to prevent breaking applications.
+Some fixes may need manual review to avoid breaking code or introducing errors. 
+Developers might become over-reliant on the tool, assuming their code is fully optimised without deeper manual checks.
 
-Problem Solved: Automates code suggestions and refactoring during development, enhancing code quality and consistency.
-Process Improvement: GitHub Copilot integrates directly into VSCode and can assist developers by suggesting entire code snippets, reducing the time spent on boilerplate code or looking up language syntax.
-B. Risk:
+C. Tangible Benefit
+It saves time by automating bug fixes, enhances productivity, and reduces tech debt through quicker, secure fixes.
+Tech debt happens when quick fixes or shortcuts are made during development to meet deadlines but can cause problems later, requiring additional time and resources to fix.
 
-Downsides: Developers may become too reliant on the tool, which could reduce deep understanding of code. Additionally, Copilot might suggest insecure or suboptimal code if not carefully reviewed.
-Security Concerns: Copilot pulls from publicly available codebases, which could lead to the suggestion of vulnerable or non-compliant code. It would require additional layers of code review.
-C. Tangible Benefit:
+How DeepCode AI helps with tech debt:
 
-Cost Savings: Can reduce time spent on debugging and developing code, allowing developers to focus on more complex tasks.
-Time Efficiency: Developers may complete tasks faster due to AI-powered suggestions, significantly improving productivity.
-Productivity Gains: Automated assistance in generating boilerplate code and algorithms that reduce manual coding efforts.
-D. Evaluation:
+It identifies these inefficient or risky pieces of code automatically and suggests secure, efficient improvements in real-time.
 
-Recommendation: High-value tool for TechForge’s current stack given its VSCode integration and the nature of its JavaScript-heavy workflow. While code quality must still be manually validated, the benefits likely outweigh the risks.
-2. Automated Testing: AI-Based Test Automation Tools (e.g., Testim)
-A. Opportunity:
-
-Problem Solved: Reduces time spent on manual test creation, maintenance, and updates for front-end and back-end workflows.
-Process Improvement: Integrates with Jest and Postman to enhance the automation of unit and API tests. It adapts tests based on changes in the application, making the testing process faster and more reliable.
-B. Risk:
-
-Downsides: High upfront configuration and learning curve. The tool could generate false positives/negatives or miss critical edge cases.
-Security Concerns: Automated test scripts could be misconfigured, which could lead to incomplete testing and unintentional bugs slipping through.
-C. Tangible Benefit:
-
-Cost Savings: Reduces manual effort required for writing and maintaining tests, lowering labor costs.
-Time Efficiency: Can execute large test suites faster, improving the CI/CD pipeline speed.
-Productivity Gains: Frees up QA and development teams to focus on more critical or complex testing scenarios.
-D. Evaluation:
-
-Recommendation: Highly recommended to augment TechForge's current Jest-based unit testing and Postman-based API testing. The upfront investment is justified by long-term gains in testing efficiency and reliability.
-3. AI-Driven Code Quality Monitoring: DeepCode (now part of Snyk)
-A. Opportunity:
-
-Problem Solved: Automates the detection of code quality issues, security vulnerabilities, and potential bugs.
-Process Improvement: DeepCode continuously scans your GitHub repositories and suggests improvements. It integrates with ESLint and Prettier for automatic code formatting and linting.
-B. Risk:
-
-Downsides: Developers might become over-reliant on the tool, assuming their code is fully optimized without deeper manual checks.
-Security Concerns: Given that the tool processes code in the cloud, there might be data privacy concerns unless compliance with industry standards (e.g., GDPR) is ensured.
-C. Tangible Benefit:
+This reduces the long-term cost of refactoring and maintenance, preventing tech debt from piling up.
 
 Cost Savings: Catching bugs early in development can prevent costly issues down the line.
-Time Efficiency: Automates code review processes, reducing the burden on senior developers and freeing up their time.
-Productivity Gains: Improves code quality and security proactively rather than reactively.
-D. Evaluation:
 
-Recommendation: Highly recommended, particularly given TechForge's heavy use of GitHub for version control and the need for continuous code quality assurance.
+Time Efficiency: Automates code review processes, reducing the burden on senior developers and freeing up their time.
+
+Productivity Gains: Improves code quality and security proactively rather than reactively.
+
+Data: Uses public open-source code for training, not customer data
+
+Price
+Free - For individual developers and small teams looking to stay secure as they build.Free forever $0
+Team - For development teams looking to build security into their development process.Starting at $25 per month/product
+
+D. Evaluation
+The benefits outweigh the risks, making it a highly recommended tool for improving code quality and security particularly given TechForge's use of GitHub and the need for continuous code quality assurance.
+
