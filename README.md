@@ -86,3 +86,74 @@ Testim is a extremnly useful tool in devolpmment, allowing for seamless creation
 Will allow for more freedom to focus on other areas of the code whilst also having the increased security of tests within the code.
 
 However as with all Ai tools it would most likly require a developer to check the tests to make sure they are working correctly which can remove some of the speed.
+
+Evaluating the Tools
+For each tool, you can assess it with whatever criteria you deem best.
+Here's some example aspects that might help your structure:
+
+A. Opportunity
+
+ • What problems does this tool solve?
+
+- The tool offers Component Creation:creates individual React components or sets of related components. 
+   These can be quite sophisticated, including state management, hooks, and complex UI elements.
+- Code Snippets: provides code snippets for various parts of a React application, 
+   such as routing logic, state management setups, API integrations, etc.
+- File Structure Recommendations: Suggests and explains optimal file structures for React projects, 
+   especially those using Next.js.
+- Configuration Files: helps with configuration files like `package.json`, `.eslintrc`, `tsconfig.json`, etc.
+- Explanations and Guidance: provides detailed explanations on how to set up and structure a React app, 
+   including best practices and modern approaches.
+- offers boilerplate code for various web development scenarios, particularly for React and Next.js projects.
+
+ • How can it improve current processes?
+- simple text prompts generate code so you do not need to give the LLM prewritten code to generate a response.
+- currently TechForge struggles with setting up its JavaScript systems quickly and this will save time as it will be able to 
+create common components, file structures and the like with a lot of time saved.
+- Automates code suggestions and refactoring during development, enhancing code quality and consistency.
+
+B. Risk
+ - There is a risk of faulty code or the software developer not understanding the code being suggested but using it regardless 
+which can be a security risk.
+
+Example Questions to Answer:
+ • What are the potential downsides?
+- Single File Focus: Code is generated one file at a time which can be a slow process for a large app. 
+- multiple files cannot be created in a single prompt so prompts have to be repeated which costs time.
+- No Direct File System Interaction: it can't directly create or modify files on your system. 
+  However there is an extension for vscode so the LLM can be used within the vscode system without requring browser.
+- No Continuous Build Process: No continuous build process or manage an ongoing development workflow.
+  Each interaction is separate, so  app building would be step-by-step.
+- Limited Context Retention: The LLM can refer back to your conversation, 
+  it does not maintain your entire project structure across multiple queries.
+
+ • Are there security or compliance concerns?
+- risk of code smell ie noticing a problem that may have some deeper issues - code that is not reviewed may risk deeper issues.
+- There is always a risk of some outdated coding practice which can pose a security threat.
+- The big issue with v0 is that it is react/js/next.js complaint and reliant so it is difficult to currently use outside of this framework.
+As such there may be risks of it not being applicable in future projects if the company shifts ad moves away from a JS, React framework.
+
+C. Tangible Benefit
+- Vercel makes it clear that ''No data related to your usage of Vercel,
+Vercel CLI or Vercel's deployment services is or will be used to train the models used by v0.''
+This means your code is not at significant risk (however you should still avoid pasting code with security risks in an LLM).
+
+
+Example Metrics to Consider:
+ • Cost savings.: The big thing with Vercel v0 is this ability to create js projects and the code for them in a cost saving manner.
+ This greatly reduces risk of syntax errors which means time is saved when trying to find bugslike this meaning money is saved.
+
+ • Time efficiency.
+- A preset framework means less time spent having to build said framework and less time debugging the framework.
+ The developer can then focus on more complex or specific tasks without having to worry about the optimal structure of their code.
+ • Productivity gains.
+- v0's ability to explain the best options for your code can save time in terms of considering what is available on the market 
+and what is best to apply to your JS code. As such you can simply 
+
+
+ Final Thoughts:
+ • Does the benefit outweigh the risk?
+- The benefits outweigh the risks in terms of streamlining the structure and review of code.
+- There are clear time saving, cost saving and produtivity supporting aspects which benefit any team.
+ • Would you recommend adoption?
+- I recommend the use of v0 as it would benefit consistent, productive work.
